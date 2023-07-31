@@ -1,0 +1,14 @@
+.left-side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding: 0 2rem;
+  width: calc(100% - 200px);
+  min-width: 820px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 4%,
+    rgba(78, 244, 230, 0.253) 100%
+  );
+}

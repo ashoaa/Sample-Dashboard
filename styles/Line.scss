@@ -1,0 +1,8 @@
+@import "colors";
+.line {
+  width: 100%;
+  border-radius: 100px;
+  height: 2px;
+  background: $header-color-white;
+  box-shadow: 0px 3px 4px 0px #acacac40 inset;
+}

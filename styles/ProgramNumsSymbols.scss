@@ -1,0 +1,44 @@
+@import "colors";
+
+.nums-symbols {
+  .blue {
+    border: 3px solid $header-color-blue-05;
+    background: linear-gradient(180deg, #5ac8f6 0%, #26a7e7 100%);
+    color: var(--header-color-blue-05, #1d59b3);
+  }
+
+  .yellow {
+    border: 3px solid $header-color-yellow-03;
+    background: linear-gradient(180deg, #f6df5a 0%, #e78b27 100%);
+    color: $header-color-yellow-03;
+  }
+
+  .green {
+    border: 3px solid $header-color-green-02;
+    background: linear-gradient(180deg, #81f66e 0%, #35b829 100%);
+    color: $header-color-green-02;
+  }
+
+  .pink {
+    border: 3px solid $header-color-pink-03;
+    background: linear-gradient(180deg, #f9b0f8 0%, #d14fc5 100%);
+    color: $header-color-pink-03;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 600;
+
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 20px;
+    }
+  }
+}

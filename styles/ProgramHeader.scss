@@ -1,0 +1,21 @@
+@import "colors";
+.program-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+  .program-header-line {
+    height: 2px;
+    background-color: $header-color-gray-02;
+    box-shadow: 0px 3px 4px 0px rgba(172, 172, 172, 0.25) inset;
+    border-radius: 100px;
+  }
+  .program-header-text {
+    font-size: 1rem;
+    font-family: "yekan";
+    color: $header-color-gray;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,102 @@
+@import "colors";
+
+.formula-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  border-radius: 8px;
+  border: 1px solid $header-color-gray-06;
+  background: $header-color-blue-08;
+  width: 80%;
+  min-width: 800px;
+
+  .formula-program-symbol {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    column-gap: 0.5rem;
+    .formula-program-items {
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: end;
+      align-items: center;
+      padding: 14px;
+      column-gap: 12px;
+      border-radius: 4px;
+      background: $header-color-gray-02;
+      box-shadow: 2px 2px 10px 0px #00000026 inset;
+    }
+    .formula-program-title {
+      display: flex;
+      align-items: center;
+      color: var(--header-color-black, #232323);
+      text-align: right;
+      font-family: "yekan";
+      font-size: 16px;
+      p {
+        width: 50px;
+      }
+    }
+  }
+
+  .formula-dnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2rem;
+    padding: 14px;
+    height: 205px;
+    border-radius: 4px;
+    background: $header-color-gray-02;
+    box-shadow: 2px 2px 10px 0px #00000026 inset;
+    .formula-dnd-header {
+      padding: 0 10px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+
+      img {
+        cursor: pointer;
+        height: 30px;
+      }
+      div {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        color: $header-color-black-02;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: "yekan";
+        display: rtl;
+      }
+    }
+    .formula-dnd-nums-symbols {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      column-gap: 0.5rem;
+    }
+
+    .formula-dnd-result {
+      display: flex;
+      column-gap: 0.5rem;
+      justify-content: end;
+      align-items: center;
+      .formula-string {
+        margin-right: 0.5rem;
+        font-size: 20px;
+        font-weight: 700;
+        color: $header-color-black-02;
+      }
+      .equal {
+        width: 21px;
+        height: 19px;
+      }
+      .fx {
+        width: 32;
+        height: 29px;
+      }
+    }
+  }
+}

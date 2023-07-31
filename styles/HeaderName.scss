@@ -1,0 +1,33 @@
+@import "colors";
+
+.header-name {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: end;
+  padding: 0.5rem 0;
+  .header-name-text {
+    text-align: end;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-family: "yekan";
+    .header-name-title {
+      font-weight: 700;
+      font-size: 18px;
+      color: $header-color-blue;
+    }
+    .header-name-message {
+      font-weight: 600;
+      font-size: 16px;
+      color: $header-color-gray;
+    }
+  }
+  .header-name-icon {
+    width: 82px;
+    height: 74px;
+    img {
+      width: 95%;
+    }
+  }
+}

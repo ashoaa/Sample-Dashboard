@@ -1,0 +1,18 @@
+@import "colors";
+
+.program-tip {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 1rem;
+  .program-tip-text {
+    font-size: 1rem;
+    font-family: "yekan";
+    color: $header-color-black;
+    font-weight: 600;
+  }
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+}

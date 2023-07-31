@@ -1,0 +1,26 @@
+@import "colors";
+.input {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  .input-title {
+    font-family: "yekan";
+    font-size: 14px;
+    font-weight: 600;
+    color: $header-color-gray;
+  }
+  .input-textfield {
+    padding: 9px 13px;
+    direction: rtl;
+    outline: 0;
+    width: 346px;
+    color: $header-color-blue-05;
+    border-radius: 5px;
+    border: 3px solid $header-color-gray-06;
+    background: $header-color-white;
+    font-family: "yekan";
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
