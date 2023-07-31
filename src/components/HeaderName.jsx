@@ -7,7 +7,7 @@ const HeaderName = () => {
         <p className="header-name-message"> برنامه خود را بسازید</p>
       </div>
       <div className="header-name-icon">
-        <img src="src/assets/icons8-strategy-news-100.png" />
+        <img src="src/images/icons8-strategy-news-100.png" />
       </div>
     </div>
   );

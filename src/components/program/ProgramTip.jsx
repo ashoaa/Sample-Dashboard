@@ -5,7 +5,7 @@ const ProgramTip = () => {
       <div className="program-tip-text">
         <p>در صورتی که فرمول نویسی برای باید انجام شود</p>
       </div>
-      <img src="src/assets/icons8-box-important-100.png" />
+      <img src="src/images/icons8-box-important-100.png" />
     </div>
   );
 };

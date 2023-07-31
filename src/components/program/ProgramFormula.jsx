@@ -70,7 +70,7 @@ const ProgramFormula = () => {
               setFormula([]);
               setFormulaString("");
             }}
-            src="src/assets/icons8-delete-100.png"
+            src="src/images/icons8-delete-100.png"
           />
           <div>
             <p>
@@ -94,8 +94,8 @@ const ProgramFormula = () => {
           <div className="formula-string">
             <p>{formulaString.split("").join(" ")}</p>
           </div>
-          <img className="equal" src="src/assets/icons8-equal-sign-100.png" />
-          <img className="fx" src="src/assets/icons8-formula-fx-100.png" />
+          <img className="equal" src="src/images/icons8-equal-sign-100.png" />
+          <img className="fx" src="src/images/icons8-formula-fx-100.png" />
         </div>
       </div>
     </div>

@@ -3,20 +3,20 @@ const Header = () => {
   return (
     <div className="header">
       <div className="company-name">
-        <img src="src/assets/Robo logo.png" />
+        <img src="src/images/Robo logo.png" />
         <p>Company Name</p>
       </div>
       <div className="right-toolbar">
         <div className="message">
           <p>1 پیغام دارید</p>
           <div>
-            <img src="src/assets/icons8-mail-100 (3).png" />
+            <img src="src/images/icons8-mail-100 (3).png" />
           </div>
         </div>
         <div className="user">
           <p>سارا محمدیان</p>
           <div>
-            <img src="src/assets/woman.png" />
+            <img src="src/images/woman.png" />
             <div className="user-badge">
               <div>
                 <svg
