@@ -1,6 +1,7 @@
-import "../styles/ProgramSerach.scss";
+import "../../../styles/ProgramSerach.scss";
 import { useDispatch } from "react-redux";
-import { programActions } from "./store/store";
+import { programActions } from "../../store/store";
+
 const ProgramSerach = () => {
   const dispatch = useDispatch();
   return (

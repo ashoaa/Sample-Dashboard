@@ -1,4 +1,4 @@
-import "../styles/ProgramTip.scss";
+import "../../../styles/ProgramTip.scss";
 const ProgramTip = () => {
   return (
     <div className="program-tip">

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "../styles/ProgramHeader.scss";
+import "../../../styles/ProgramHeader.scss";
 const ProgramHeader = ({ title }) => {
   return (
     <div className="program-header">

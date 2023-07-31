@@ -1,4 +1,4 @@
-import "../styles/MainFrame.scss";
+import "../../styles/MainFrame.scss";
 const MainFrame = ({ children }) => {
   return <div>{children}</div>;
 };

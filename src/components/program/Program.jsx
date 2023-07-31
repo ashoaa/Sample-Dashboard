@@ -1,4 +1,4 @@
-import "../styles/Program.scss";
+import "../../../styles/Program.scss";
 import ProgramSerach from "./ProgramSerach";
 import ProgramHeader from "./ProgramHeader";
 import ProgramTip from "./ProgramTip";

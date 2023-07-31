@@ -1,6 +1,6 @@
-import "../styles/ProgramFrame.scss";
+import "../../../styles/ProgramFrame.scss";
 import { useSelector, useDispatch } from "react-redux";
-import { programActions } from "./store/store";
+import { programActions } from "../../store/store";
 import { useRef } from "react";
 
 const ProgramFrame = () => {

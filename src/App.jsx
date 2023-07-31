@@ -1,9 +1,9 @@
-import MainFrame from "./MainFrame";
-import SideBar from "./SideBar";
-import LeftSide from "./LeftSide";
-import Header from "./Header";
-import HeaderName from "./Headername";
-import Program from "./Program";
+import MainFrame from "./components/MainFrame";
+import SideBar from "./components/SideBar";
+import LeftSide from "./components/LeftSide";
+import Header from "./components/Header";
+import HeaderName from "./components/Headername";
+import Program from "./components/program/Program";
 
 const App = () => {
   return (

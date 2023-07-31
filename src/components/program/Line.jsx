@@ -1,4 +1,4 @@
-import "../styles/Line.scss";
+import "../../../styles/Line.scss";
 const Line = () => {
   return <div className="line"></div>;
 };

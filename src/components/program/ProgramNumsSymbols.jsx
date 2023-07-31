@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "../styles/ProgramNumsSymbols.scss";
+import "../../../styles/ProgramNumsSymbols.scss";
 import { useDrag } from "react-dnd";
 const ProgramNumsSymbols = ({ value, color, size, drop }) => {
   const [{ isDragging }, dragRef] = useDrag({
