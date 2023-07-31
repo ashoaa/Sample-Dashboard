@@ -1,6 +1,6 @@
 import "../../../styles/ProgramFormula.scss";
 import { useState } from "react";
-import ProgramNumsSymbols from "./ProgramNumsSymbols";
+import ProgramNumsSymbols from "./ProgramNumsSymbols.jsx";
 import { useDrop } from "react-dnd";
 
 const nums = Array(9)
