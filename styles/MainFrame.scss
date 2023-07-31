@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "yekan";
-  src: url("yekan.woff2");
+  src: local("yekan"), url("yekan.woff2");
 }
 * {
   margin: 0;
