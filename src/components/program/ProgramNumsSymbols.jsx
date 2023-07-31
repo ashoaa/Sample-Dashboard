@@ -16,7 +16,15 @@ const ProgramNumsSymbols = ({ value, color, size, drop }) => {
           <p style={{ fontSize: size }}>{value}</p>
         </div>
       ) : (
-        <div className={color} key={value} ref={dragRef}>
+        <div
+          className={color}
+          key={value}
+          ref={dragRef}
+          style={
+            isDragging
+              ? { background: "#f2ff00", borderColor: "#b3bd00" }
+              : null
+          }>
           <p style={{ fontSize: size }}>{value}</p>
         </div>
       )}
